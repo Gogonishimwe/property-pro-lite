@@ -1,130 +1,59 @@
 <!doctype <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sign up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 
 </head>
+
 <body>
-        <h1>Register<h1>
-                <form action="Register" method="post">
-                <div>
-                    <label for="username">Username </label>
-                    <input id="Username" type="text" placeholder="your username"  required>
-                </div>
-                <div>
+    <main>
+        <form action="Register" method="post">
+            <h1>Register</h1>
+            <div>
+                <label for="username">Username </label>
+                <input id="Username" type="text" placeholder="your username" required>
+            </div>
+            <div>
                 <label for="First"> First Name </label>
-                <input name="first"id="First" type="text" placeholder="john" required>
-                </div>
-                <div>
+                <input name="first" id="First" type="text" placeholder="john" required>
+            </div>
+            <div>
                 <label for="Last"> Last Name </label>
-                <input  name="last"id="Last"type="text" placeholder="smith" required>
-                </div>
-                <div>
+                <input name="last" id="Last" type="text" placeholder="smith" required>
+            </div>
+            <div>
                 <label for="male">Male</label>
-                <input name="gender"id="male" type="radio" value="Male " required>
+                <input name="gender" id="male" type="radio" value="Male " required>
                 <label for="Female">Female</label>
-                <input name="gender"id="Female" type="radio" value="Female" required>
+                <input name="gender" id="Female" type="radio" value="Female" required>
                 <label for="Other">Other</label>
-                <input name="gender"id="Other" type="radio" value="Other"required>
-                </div>
-                
-                <div>
+                <input name="gender" id="Other" type="radio" value="Other" required>
+            </div>
+
+            <div>
                 <label for="email">Email </label>
-                <input id="email" type="email" placeholder="your email"  required>
-                 </div>
-                 <div>
+                <input id="email" type="email" placeholder="your email" required>
+            </div>
+            <div>
                 <label for="Password">password </label>
-                <input id="password" type="password" pattern=".{5,10}"required title="5 to 10 characters">
-                 </div>
-                <div>
+                <input id="password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+            </div>
+            <div>
                 <label>
-                  Birthday:
-                   <select name="Month">
-                    <option>Month</option>
-                    <option>jan</option>
-                    <option>feb</option>
-                    <option>mar</option>
-                    <option>april</option>
-                    <option>may</option>
-                    <option>june</option>
-                    <option>july</option>
-                    <option>aug</option>
-                    <option>sep</option>
-                    <option>oct</option>
-                    <option>nov</option>
-                    <option>dec</option>
-                  </select>
-                  <select name="day">
-                    <option>day</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                    <option>13</option>
-                    <option>14</option>
-                    <option>15</option>
-                    <option>16</option>
-                    <option>17</option>
-                    <option>18</option>
-                    <option>19</option>
-                    <option>20</option>
-                    <option>21</option>
-                    <option>22</option>
-                    <option>23</option>
-                    <option>24</option>
-                    <option>25</option>
-                    <option>26</option>
-                    <option>27</option>
-                    <option>28</option>
-                    <option>29</option>
-                    <option>30</option>
-                   </select>
-                   <select name="Year">
-                    <option>year</option>
-                    <option>2000</option>
-                    <option>2001</option>
-                    <option>2002</option>
-                    <option>2003</option>
-                    <option>2004</option>
-                    <option>2005</option>
-                    <option>2006</option>
-                    <option>2007</option>
-                    <option>2008</option>
-                    <option>2009</option>
-                    <option>2010</option>
-                    <option>2011</option>
-                    <option>2012</option>
-                    <option>2013</option>
-                    <option>2014</option>
-                    <option>2015</option>
-                    <option>2016</option>
-                    <option>2017</option>
-                    <option>2018</option>
-                    <option>2019</option>
-                    <option>2020</option>
-                   </select>
+                    Birthday:
                 </label>
-                </div>
-                <div>
-                <label>
-                I agree to the terms and conditions
-                <input type="checkbox">
-                </label>
-                </div>
-                <input type="submit">
-                </form>
-                
+                <input type="date" name="" id="">
+            </div>
+            <div>
+            </div>
+            <input type="submit">
+        </form>
+    </main>
 </body>
+
 </html>

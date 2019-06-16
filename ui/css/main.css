@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color:#f7f7f7;
+}
+main {
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px;
+}
+form  h1{
+    text-align: center;
+}
+form input:not([type="radio"]) {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+form input[type="submit"] {
+    margin: 10px auto;
+    width: 200px;
+    background: #0490d1;
+    color: white;
+}
+input[type="submit"]:hover {
+    background: #035a83;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+.search{
+    height: 30px;
+    background:rgb(75, 67, 67);
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+}
+header{
+    background: #354248;
+    color: white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:greenyellow 3px solid;  
+}
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+
+}
+header #pro{
+    float:left; 
+}
+header #pro h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+header a:hover{
+    color:rgb(202 225 255);
+    font-weight: bold;
+}
+#showcase{
+    min-height: 100px;
+    background:url ("../img/file:///C:/Users/Mwibutsa/Desktop/etude/css/showcase.jpg");
+    text-align:center;
+    background-color: rgb(23, 44, 37);
+    color:white; 
+}
+#showcase h1{
+    margin-top:50px;
+    font-size:55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size:20px;
+}
+#properties{
+    color:white;
+    background:#354248;
+}
+#properties h1{
+    float: left;
+
+}
+#properties form{
+    float:right;
+    margin-top: 15px;
+}
+#properties input[type="search"]{
+    padding:4px;
+    height: 25px;
+    width: 250px;
+}
+#views{
+    margin-top:20px;
+}
+#views .view{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding:10px;
+}
+footer{
+    padding:10px;
+    margin-top: 10px;
+    color:olivedrab;
+    background-color:#e8491d;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+}
