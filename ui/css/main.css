@@ -216,3 +216,17 @@ label {
 .btn-link:hover {
     color: #0490d1;
 }
+
+.properties {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+
+.property-container {
+    border-radius: 10px;
+}
+
+.property-container img {
+    width: 100%;
+}
