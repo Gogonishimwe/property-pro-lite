@@ -19,17 +19,19 @@
                 </div>
                 <nav>
                     <ul>
-
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="signup.html">sign up</a></li>
                         <li><a href="login.html"> login</a></li>
-                        <li><a href="admin.html">agent</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="properties.html">Properties</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
+        <br>
 
         <form action="sign in" method="post">
+            <h1>Log into your account</h1>
             <div>
                 <label for="email">Email </label>
                 <input id="email" type="email" placeholder="your email" required>
@@ -37,17 +39,17 @@
             <div>
                 <label for="Password">password </label>
                 <input id="password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+                <input type="submit" value="Login">
             </div>
-            <div>
-                <ul>
-                    <li> <a href="reset password.html">forget password</a></li>
-                </ul>
+            <div class="clear-fix">
+
+                <div> <a href="reset password.html" class="btn-link">forget password ?</a></div>
             </div>
         </form>
     </div>
 
     <footer class="footer">
-        Copyright &copy; 2019
+        Property Pro Lite Copyright &copy; 2019
     </footer>
 
 </body>

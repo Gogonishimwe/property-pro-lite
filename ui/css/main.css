@@ -3,15 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 label {
     margin: 0 5px;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    background-color:#f7f7f7;
+    background-color: #f7f7f7;
 }
+
 main {
     padding: 30px;
     width: 80%;
@@ -25,9 +28,11 @@ form {
     padding: 10px;
     border-radius: 10px;
 }
-form  h1{
+
+form h1 {
     text-align: center;
 }
+
 form input:not([type="radio"]) {
     width: 100%;
     height: 30px;
@@ -35,124 +40,144 @@ form input:not([type="radio"]) {
     padding: 0 10px;
     margin: 5px;
 }
+
 form input[type="submit"] {
     margin: 10px auto;
     width: 200px;
     background: #0490d1;
     color: white;
 }
+
 input[type="submit"]:hover {
     background: #035a83;
 }
-.container{
+
+.container {
     width: 80%;
-    margin:auto;
+    margin: auto;
     overflow: hidden;
 }
-ul{
-    margin:0;
-    padding:0;
+
+ul {
+    margin: 0;
+    padding: 0;
 }
-.search{
+
+.search {
     height: 30px;
-    background:rgb(75, 67, 67);
-    border:0;
+    background: rgb(75, 67, 67);
+    border: 0;
     padding-left: 20px;
     padding-right: 20px;
-    color:white;
+    color: white;
 }
-header{
+
+header {
     background: #354248;
     color: white;
-    padding-top:30px;
-    min-height:70px;
-    border-bottom:greenyellow 3px solid;  
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: greenyellow 3px solid;
 }
-header a{
-    color:white;
+
+header a {
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 15px;
 }
 
-header li{
-    float:left;
-    display:inline;
-    padding:0 20px 0 20px;
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
 
+header #pro {
+    float: left;
 }
-header #pro{
-    float:left; 
+
+header #pro h1 {
+    margin: 0;
 }
-header #pro h1{
-    margin:0;
-}
-header nav{
-    float:right;
+
+header nav {
+    float: right;
     margin-top: 10px;
 }
-header a:hover{
-    color:rgb(202 225 255);
+
+header a:hover {
+    color: rgb(202 225 255);
     font-weight: bold;
 }
-#showcase{
-    min-height: 50vh;
-    background-image:linear-gradient( rgba(49, 51, 51, 0.5), rgba(27, 43, 43, 0.5)), url(https://images.pexels.com/photos/1838066/pexels-photo-1838066.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-    text-align:center;
+
+#showcase {
+    min-height: 60vh;
+    background-image: linear-gradient( rgba(49, 51, 51, 0.5), rgba(27, 43, 43, 0.5)), url(https://images.pexels.com/photos/1838066/pexels-photo-1838066.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-color: rgb(23, 44, 37); */
-    color:white; 
+    color: white;
 }
-#showcase h1{
-    margin-top:50px;
-    font-size:55px;
+
+#showcase h1 {
+    margin-top: 50px;
+    font-size: 55px;
     margin-bottom: 10px;
 }
-#showcase p{
-    font-size:20px;
-}
-#properties{
-    color:white;
-    background:#354248;
-}
-#properties h1{
-    float: left;
 
+#showcase p {
+    font-size: 20px;
 }
-#properties form{
-    float:right;
+
+#properties {
+    color: white;
+    background: #354248;
+}
+
+#properties h1 {
+    float: left;
+}
+
+#properties form {
+    float: right;
     margin-top: 15px;
 }
-#properties input[type="search"]{
-    padding:4px;
+
+#properties input[type="search"] {
+    padding: 4px;
     height: 25px;
     width: 250px;
 }
-#views{
-    margin-top:20px;
+
+#views {
+    margin-top: 20px;
 }
-#views .view{
+
+#views .view {
     float: left;
     text-align: center;
     width: 30%;
-    padding:10px;
+    padding: 10px;
 }
-footer{
+
+footer {
     height: 5vh;
-    padding:10px;
-    color:olivedrab;
-    background-color:#e8491d;
+    padding: 10px;
+    color: white;
+    background-color: #354248;
     text-align: center;
 }
 
 label {
     font-size: 16px;
 }
+
 .wrapper {
     min-height: 95vh;
 }
+
 .btn {
     text-decoration: none;
     color: #333;
@@ -166,10 +191,28 @@ label {
     margin: 5px 0px;
     border-radius: 100px;
     box-shadow: 1px 2px 4px #333;
-
 }
+
 .btn:hover {
     background: #333;
     border: 1px solid #333;
-    color:white;
+    color: white;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #333;
+    float: right;
+    top: 0;
+}
+
+.clear-fix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-link:hover {
+    color: #0490d1;
 }
