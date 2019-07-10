@@ -279,19 +279,41 @@ label {
 .Image {
     border: 1px solid #ddd;
     border-radius: 4px;
-    /* padding: 5px; */
-    width: 40%;
-    /*object-position: center;*/
+    padding: 15px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.txt {
+.Image p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.Image h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.dashboard {
     min-height: 60vh;
-    background-image: url(https://www.pexels.com/photo/photography-of-empty-living-room-1027512/);
+    background-image: url(https://images.pexels.com/photos/1838066/pexels-photo-1838066.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: black;
+    color: rgb(77, 73, 73);
+}
+
+.dashboard p {
+    font-size: 20px;
+}
+
+.dashboard h1 {
+    margin-top: 50px;
+    font-size: 55px;
+    margin-bottom: 10px;
 }
 
 form input[type="file"] {
@@ -351,4 +373,28 @@ select {
     padding: 10px;
     text-align: center;
     background-color: rgb(180, 202, 180);
+}
+
+.properyi {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.img {
+    width: 100%;
+    margin: 1.6%;
+}
+
+.about {
+    display: grid;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.about p {
+    font-size: 20px;
+    text-align: center;
 }
