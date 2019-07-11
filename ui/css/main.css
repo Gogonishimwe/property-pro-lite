@@ -235,12 +235,13 @@ label {
     background-color: rgb(75, 104, 32);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 9px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    display: inline;
+    display: inline-block;
+    transform: translateY(2px);
 }
 
 .button:hover {
@@ -346,6 +347,11 @@ select {
     flex-direction: row;
 }
 
+.manage {
+    display: inline-block;
+    width: 30%;
+}
+
 .manage img {
     width: 90%;
 }
@@ -353,7 +359,13 @@ select {
 .box {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100%
+}
+
+.box button {
+    box-sizing: border-box;
+    margin: 1%;
+    font-size: 18px;
 }
 
 .mnge {
