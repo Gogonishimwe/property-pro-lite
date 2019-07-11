@@ -1,2 +1,3 @@
 # property-pro-lite
 Property Pro Lite is a platform where people can create and/or search properties for sale or rent
+https://gogonishimwe.github.io/property-pro-lite/
